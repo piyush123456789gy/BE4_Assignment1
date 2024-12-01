@@ -217,4 +217,6 @@ app.delete("/books/:bookId", async (req, res) => {
 });
 
 const PORT = 3000;
-module.exports = app;
+app.listen(PORT, () => {
+  console.log(`Server is running on PORT ${PORT}`);
+});
