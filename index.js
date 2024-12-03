@@ -9,7 +9,7 @@ initialiseDatabse();
 
 const cors = require("cors");
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://bi-1-3-hw-1-frontend.vercel.app",
   credentials: true,
   optionSuccessStatus: 200,
 };
